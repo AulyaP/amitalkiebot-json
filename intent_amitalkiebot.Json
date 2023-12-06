@@ -1,0 +1,1152 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hello",
+          "hai",
+          "halo",
+          "selamat pagi",
+          "selamat siang",
+          "selamat sore",
+          "selamat malam"
+        ],
+        "responses": [
+          "Hello! AmiTalkieBot di sini. Ada yang bisa AmiTalkie bantu?",
+          "Hello! Saya AmiTalkieBot, salam kenal ya! Mau tau tentang Grand Darmo Suite, ya ?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadah!",
+          "Good bye!",
+          "Dadah, semoga harimu menyenangkan!",
+          "Sampai jumpa lagi!",
+          "See you! Senang bisa membantu."
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati:)"
+        ]
+      },
+      {
+        "tag": "fasilitas_hotel",
+        "patterns": [
+          "Apa saja fasilitas hotelnya?"
+        ],
+        "responses": [
+          "Kolam Renang, Fitness Center, Pub & Bar, Laundry & Cuci Kering, Spa, Lounge, Restoran, Bar tepi kolam renang, Ruang Pertemuan, Musik Live, Wi-Fi, Layanan kamar 24 jam, dan Layanan antar-jemput ke Pusat Perbelanjaan"
+        ]
+      },
+      {
+        "tag": "benefit",
+        "patterns": [
+          "Apa saja benefit yang didapatkan?"
+        ],
+        "responses": [
+          "Minuman selamat datang gratis pada saat kedatangan, Mini Bar gratis (Executive Suite), Fasilitas Pembuat Kopi & Teh, Pengering Rambut, dan Microwave gratis di semua tipe kamar."
+        ]
+      },
+      {
+        "tag": "tipe_kamar",
+        "patterns": [
+          "Tersedia tipe kamar apa saja?"
+        ],
+        "responses": [
+          "Deluxe Suite, Executive Suite, dan Penthouse Suite."
+        ]
+      },
+      {
+        "tag": "detail_kamar_deluxe_suite",
+        "patterns": [
+          "Bagaimana detail kamar Deluxe Suite?"
+        ],
+        "responses": [
+          "Kamar bergaya dengan desain yang apik dan menarik. Rasakan pengalaman menginap yang nyaman dan santai di tempat tidur Double atau Twin di kamar yang luas seluas 32 meter persegi dengan pemandangan indah ke pusat kota. Kebijakan anak: 2 anak di bawah 10 tahun yang menginap gratis *(Syarat dan Ketentuan Berlaku)."
+        ]
+      },
+      {
+        "tag": "detail_kamar_executive_suite",
+        "patterns": [
+          "Bagaimana detail kamar Executive Suite?"
+        ],
+        "responses": [
+          "Kamar yang elegan dengan fasilitas premium, dengan konsep kamar mandi modern yang tertutup kaca. Fasilitas tambahan dan jubah mandi akan disediakan di kamar ini. Nikmati pemandangan kota yang indah sambil beristirahat di tempat tidur yang nyaman.Kebijakan anak: 2 anak di bawah 10 tahun dapat menginap gratis *(Syarat dan Ketentuan Berlaku)."
+        ]
+      },
+      {
+        "tag": "detail_kamar_penthouse_suite",
+        "patterns": [
+            "Bagaimana detail kamar Penthouse Suite?"
+        ],
+        "responses": [
+          "Kamar bergaya dengan desain yang apik dan menarik dengan ruang tamu dan meja makan. Rasakan pengalaman menginap yang nyaman dan santai di kamar dengan tempat tidur ganda seluas 60 meter persegi dengan pemandangan indah ke pusat kota. Kebijakan anak: 2 anak di bawah 10 tahun yang menginap gratis *(Syarat dan Ketentuan Berlaku)."
+        ]
+      },
+      {
+        "tag": "fasilitas_deluxe_suite",
+        "patterns": [
+          "Apa saja fasilitas yang tersedia di kamar tipe Deluxe Suite?"
+        ],
+        "responses": [
+          "TV LED 32 inci, Mesin pembuat kopi/teh, wifi gratis, brankas dalam kamar, Kamar yang saling terhubung, Kulkas, Telepon dengan IDD, AC, Air minum dalam kemasan, Shower air panas dan dingin, TV Interaktif, Saluran TV Internasional, Kamar yang luas, dan Meja kerja."
+        ]
+      },
+      {
+        "tag": "fasilitas_executive_suite",
+        "patterns": [
+          "Apa saja fasilitas yang tersedia di kamar tipe Executive Suite?"
+        ],
+        "responses": [
+          "TV LED 42 inci, Jubah mandi, Air minum kemasan gratis, Fasilitas tambahan, Shower air panas dan dingin, TV interaktif, Dapur kecil, Lemari es, Telepon dengan IDD, AC, Mesin pembuat kopi/teh, Mini bar gratis, WIFI gratis, Brankas di dalam kamar, Saluran TV internasional, Microwave, Ruangan yang luas, dan Meja kerja."
+        ]
+      },
+      {
+        "tag": "fasilitas_penthouse_suite",
+        "patterns": [
+          "Apa saja fasilitas yang tersedia di kamar tipe Penthouse Suite?"
+        ],
+        "responses": [
+          "TV LED 42 inci, Bathtub, Air minum kemasan gratis, Fasilitas Ekstra, Shower Air Panas & Dingin, TV Interaktif, Saluran TV Internasional, Microwave, Kamar Luas, Meja Kerja, AC, Mesin pembuat kopi/teh, Mini Bar gratis, WIFI gratis, Brankas dalam kamar, Tersedia kamar yang dapat dihubungkan, Dapur kecil, Lemari es, dan Telepon dengan IDC."
+        ]
+      },
+      {
+        "tag": "tarif_setiap_tipe_kamar",
+        "patterns": [
+          "Berapa tarif masing-masing tipe kamar permalam?"
+        ],
+        "responses": [
+          "Deluxe Suite 300k /malam, Executive Suite 559k /malam, dan Penthouse Suite 10.000k/malam"
+        ]
+      },
+      {
+        "tag": "informasi_mengenai_reservasi",
+        "patterns": [
+          "Dimana saya bisa mendapatkan informasi mengenai reservasi?"
+        ],
+        "responses": [
+          "Anda dapat mengakses melalui Instagram official kami @granddarmosuite lalu klik linktr.ee/granddarmosuite yang ada di bio Instagram, setelah itu anda dapat meng-klik “information & reservation” yang tertera dan akan langsung diarahkan ke WhatsApp kami untuk pertanyaan lebih lanjut."
+        ]
+      },
+      {
+        "tag": "aplikasi_atau_situs_untuk_booking",
+        "patterns": [
+          "Apakah ada aplikasi atau situs untuk booking hotel Grand Darmo Suite?"
+        ],
+        "responses": [
+          "Tentu, beberapa aplikasi atau situs unggulan yang dapat anda gunakan untuk booking hotel Grand Darmo Suite adalah traveloka, tiket.com, dan trip.com."
+        ]
+      },
+      {
+        "tag": "pembatalan_gratis_untuk_refund_penuh",
+        "patterns": [
+          "Apakah Grand Darmo Suite menawarkan pembatalan gratis untuk refund penuh?"
+        ],
+        "responses": [
+          "Ya, Grand Darmo Suite by AMITHYA memiliki harga kamar refundable penuh yang tersedia untuk dipesan di situs web kami. Jika Anda memesan harga refundable, pemesanan ini dapat dibatalkan hingga beberapa hari sebelum check-in tergantung kebijakan pembatalan properti. Cukup pastikan untuk membaca kebijakan pembatalan properti ini untuk syarat dan ketentuan pastinya."
+        ]
+      },
+      {
+        "tag": "batas_waktu_checkin_dan_checkout",
+        "patterns": [
+          "Kapan batas waktu check-in dan check-out"
+        ],
+        "responses": [
+          "Check-in mulai dari pukul 14.00 hingga tengah malam dan check-out sebelum pukul 12.00"
+        ]
+      },
+      {
+        "tag": "deskripsi_fasilitas_spa",
+        "patterns": [
+          "Deskripsikan fasilitas spa yang tersedia di hotel!"
+        ],
+        "responses": [
+          "Layanan spa mencakup massage serta menyediakan aneka terapi perawatan, salah satunya adalah refleksiologi."
+        ]
+      },
+      {
+        "tag": "informasi_mengenai_kolam_renang",
+        "patterns": [
+          "Apakah kolam renangnya kids friendly?"
+        ],
+        "responses": [
+          "Kolam renang Grand Darmo Suite tidak disarankan untuk anak kecil, namun jika anak-anak ingin berenang, kami sarankan untuk menjaga anak-anak dengan seksama. Disamping kolam renang juga disediakan kursi untuk menunggu dan bersantai."
+        ]
+      },
+      {
+        "tag": "rekomendasi_wisata",
+        "patterns": [
+          "Apa saja rekomendasi tempat wisata yang dekat dengan hotel?"
+        ],
+        "responses": [
+          "Taman Bungkul (40 m), Museum Mpu Tantular (320 m), Kebun Binatang Surabaya (640 m), Monumen Kapal Selam (2.4 km), Jembatan Suramadu (5.1 km), Tugu Pahlawan (5.1 km), House Of Sampoerna (6.8 km), Gunung Bromo (76 km)"
+        ]
+      },
+      {
+        "tag": "rekomendasi_pusat_perbelanjaan",
+        "patterns": [
+          "Rekomendasi pusat perbelanjaan terdekat"
+        ],
+        "responses": [
+          "Tunjungan Plaza (3.1km), Surabaya Town Square (1.1 km), Marvell City Surabaya (1 km), dan Central Point Mall (340 m)."
+        ]
+      },
+      {
+        "tag": "klinik_atau_rumah_sakit",
+        "patterns": [
+          "Apakah ada klinik atau rumah sakit yang dekat dengan hotel?"
+        ],
+        "responses": [
+          "Tentu saja. Beberapa klinik atau rumah sakit terdekat adalah RSAU Soemitro (100 m), Rumah Sakit William Booth (310 m), Rumah Sakit Surabaya Medical Center (330 m), Darmo Hospital (500 m), dan RSK St. Vincentius A Paulo (500 m)."
+        ]
+      },
+      {
+        "tag": "bandara_dan_detailnya",
+        "patterns": [
+          "Apakah ada bandara terdekat dan sertakan informasi detailnya"
+        ],
+        "responses": [
+          "Tentu, Juanda International Airport (SUB) jarak 11 kilometer dari hotel dengan biaya antar jemput bandara sebesar Rp. 2.000.000, jarak dari pusat kota: 2 kilometer, dan waktu tempuh ke bandara 25 menit."
+        ]
+      },
+      {
+        "tag": "transportasi_umum",
+        "patterns": [
+          "Rekomendasi trasportasi umum terdekat"
+        ],
+        "responses": [
+          "Halte Ngagel (960 m) dan Stasiun Kereta Api Wonokromo (1.3 km)."
+        ]
+      },
+      {
+        "tag": "menu_hotel",
+        "patterns": [
+          "Ada apa saja pilihan menu yang tersedia?"
+        ],
+        "responses": [
+          "Kami menyediakan beberapa jenis menu yaitu asian cuisine, appetizers & salad, sendwich & burgers, pasta, soups, western cuisine, dessert dan beverage"
+        ]
+      },
+      {
+        "tag": "menu_khas_chef_hotel",
+        "patterns": [
+          "Apa saja menu yang menjadi khas chef hotel?"
+        ],
+        "responses": [
+          "Beberapa menu khas chef kami yaitu kampoeng fried rice, oxtail soup, soto ayam lamongan dan rawon."
+        ]
+      },
+      {
+        "tag": "harga_kampoeng_fried_rice",
+        "patterns": [
+          "Berapa harga kampoeng fried rice?"
+        ],
+        "responses": [
+          "55k, anda dapat menikmati nasi goreng dengna bumbu rempah di sajikan dengan ayam goreng dan telur mata sapi setengah matang."
+        ]
+      },
+      {
+        "tag": "harga_oxtail_soup",
+        "patterns": [
+          "Berapa harga oxtail soup?"
+        ],
+        "responses": [
+          "99k, anda dapat menikmati sup buntut rebus atau goreng yang disajikan dengan nasi putih."
+        ]
+      },
+      {
+        "tag": "harga_soto_ayam_lamongan",
+        "patterns": [
+          "Berapa harga soto ayam lamongan?"
+        ],
+        "responses": [
+          "50k, anda dapat menikmati soto ayam yang disajikan dengan krupuki udang dan nasi putih."
+        ]
+      },
+      {
+        "tag": "harga_kampoeng_rawon",
+        "patterns": [
+          "Berapa harga rawon?"
+        ],
+        "responses": [
+          "75k, anda dapat menikmati rawon daging sapi yang disajikan dengan telur asin, taoge pendek, krupuk udang dan nasi putih."
+        ]
+      },
+      {
+        "tag": "menu_dinner",
+        "patterns": [
+          "Apa saja menu dinner yang tersedia?"
+        ],
+        "responses": [
+          "Tidak ada daftar untuk menu dinner, menu dinner tergantung permintaan tamu dan ide chef."
+        ]
+      },
+      {
+        "tag": "rekomendasi_menu_dinner",
+        "patterns": [
+          "Apakah ada rekomendasi untuk memilih menu dinner?"
+        ],
+        "responses": [
+          "Tentu, kami merekomendasikan untuk request menu main course steam rice, ayam bakar madu, ikan telur asin, tumis buncis wortel, fuyunghay, kwetiaw xo, soup iga dan dessert bandrek yang akan menghangatkan tubuh anda."
+        ]
+      },
+      {
+        "tag": "menu_lunch",
+        "patterns": [
+          "Apa saja menu lunch yang tersedia?"
+        ],
+        "responses": [
+          "Tidak ada daftar untuk menu lunch, menu lunch tergantung permintaan tamu dan ide chef."
+        ]
+      },
+      {
+        "tag": "rekomendasi_menu_lunch",
+        "patterns": [
+          "Apakah ada rekomendasi untuk memilih menu lunch?"
+        ],
+        "responses": [
+          "Tentu, kami merekomendasikan untuk request menu soup  sayur bening, main course steam rice, ayam gm rempah, ikan pesmol, gulai daun singkong, tahu tempe bali, bakmi aceh dan dessert slice fruits, pudding mangga, es jeruk kelapa yang akan menyegarkan tenggorokan anda."
+        ]
+      },
+      {
+        "tag": "asian_cuisine",
+        "patterns": [
+          "Apa saja menu asian cuisine?"
+        ],
+        "responses": [
+          "Pada menu asian cuisine tersedia nasi goreng progo dan mie/bihun/kwetiaw goreng."
+        ]
+      },
+      {
+        "tag": "harga_asian_cuisine",
+        "patterns": [
+          "Berapa harga menu asian cuisine?"
+        ],
+        "responses": [
+          "Harga menu asian cuisine 65k anda dapat memilih nasi goreng spesial dengan ayam, udang dan telur goreng atau mie atau bihun goreng yang disajikan dnegan yam atau udang."
+        ]
+      },
+      {
+        "tag": "harga_appetizers_dan_salad",
+        "patterns": [
+          "Berapa harga menu appetizers & salad?"
+        ],
+        "responses": [
+          "42.5k, anda dapat menikmati vegetable spring rolls atau lumpisa isi sayuran yang akan disajikan dengan saus pedas manis."
+        ]
+      },
+      {
+        "tag": "pilihan_menu_breakfast",
+        "patterns": [
+          "Apakah ada banyak pilihan menu breakfast?"
+        ],
+        "responses": [
+          "Tentu, kami menyediakan continental breakfast, american breakfast, dan indonesian breakfast."
+        ]
+      },
+      {
+        "tag": "menu_continental_breakfast",
+        "patterns": [
+          "Apa saja makanan pada menu continental breakfast?"
+        ],
+        "responses": [
+          "pada menu continental breakfast tersedia juice, toast bread or croissant with butter and jam, fresh fruits, coffee or tea."
+        ]
+      },
+      {
+        "tag": "harga_continental_breakfast",
+        "patterns": [
+          "Berapa harga continental breakfast?"
+        ],
+        "responses": [
+          "95k"
+        ]
+      },
+      {
+        "tag": "menu_american_breakfast",
+        "patterns": [
+            "Apa saja makanan pada menu American breakfast?"
+        ],
+        "responses": [
+            "Pada menu american breakfast tersedia juice, toast bread or croissant with butter and jam, omelet or sunny egg,  fresh fruits, coffee or tea."
+        ]
+      },
+      {
+        "tag": "harga_american_breakfast",
+        "patterns": [
+            "Berapa harga American breakfast?"
+        ],
+        "responses": [
+            "100k"
+        ]
+      },
+      {
+      "tag": "menu_Indonesian_breakfast",
+      "patterns": [
+          "Apa saja makanan pada menu Indonesian breakfast?"
+      ],
+      "responses": [
+          "Pada menu Indonesian breakfast tersedia juice, freid rice or fried noodle,  fresh fruits, coffee or tea."
+      ]
+      },
+      {
+      "tag": "harga_Indonesian_breakfast ",
+      "patterns": [
+          "Berapa harga Indonesian breakfast?"
+      ],
+      "responses": [
+          "80k"
+      ]
+      },
+      {
+      "tag": "menu_sandwich_dan_burgers",
+      "patterns": [
+          "Makanan apa yang disajikan di menu sandwich & burgers?"
+      ],
+      "responses": [
+          "Terdapat 2 makanan yaitu the club sendwich dan beef or chicken burger."
+      ]
+      },
+      {
+      "tag": "harga_the_club_sandwich",
+      "patterns": [
+          "Berapa harga the club sandwich?"
+      ],
+      "responses": [
+          "45k, anda bisa menikmati roti lapis isi ayam panggang, tomat, telut, daging sapi asap, dan keju yang disajikan dengan kentang goreng."
+      ]
+      },
+      {
+      "tag": "harga_beef_or_chicken_burger",
+      "patterns": [
+          "Berapa harga beef or chicken burger?"
+      ],
+      "responses": [
+          "75k, anda bisa menikmati roti isi daging sapi atau ayam, keju cheddar, tomat, bawang bombay, selada, disajikan dengan kentang goreng."
+      ]
+      },
+      {
+      "tag": "menu_pasta",
+      "patterns": [
+          "Apa saja pilihan menu pasta?"
+      ],
+      "responses": [
+          "Ada beberapa pilihan menu pasta yaitu GDS spaghetti, spaghetti bolognaise, fettuccine carbonara, pasta ala matriciana, meat lover pizza, margharita pizza."
+      ]
+      },
+      {
+      "tag": "harga_GDS_spaghetti",
+      "patterns": [
+          "Berapa harga GDS spaghetti?"
+      ],
+      "responses": [
+          "75k, anda dapat menikmati spaghetti khas hotel grand darmo suite surabaya dengan special sauce and grilled chicken on top."
+      ]
+      },
+      {
+      "tag": "harga_spaghetti_bolognaise",
+      "patterns": [
+          "Berapa harga spaghetti bolognaise?"
+      ],
+      "responses": [
+          "85k, anda dapat menikmati spaghetti dengan daging sapi cincang dan saus tomat."
+      ]
+      },
+      {
+      "tag": "harga_fettuccine_carbonara",
+      "patterns": [
+          "Berapa harga fettuccine carbonara?"
+      ],
+      "responses": [
+          "80k, anda dapat menikmati fettuccine dengan irisan daging sapi asap, jamur dan saus krim."
+      ]
+      },
+      {
+      "tag": "harga_pasta_ala_matriciana",
+      "patterns": [
+          "Berapa harga pasta ala matriciana?"
+      ],
+      "responses": [
+          "80k, anda dapat menikmati pilihan pasta seperti spaghetti, fettuccine, penne yang akan disajikan dengan saus tomat dan daging sapi asap dan irisan cabai."
+      ]
+      },
+      {
+      "tag": "harga_meat_lover_pizza",
+      "patterns": [
+          "Berapa harga meat lover pizza?"
+      ],
+      "responses": [
+          "99k, anda dapat menikmati pizza dengan aneka macam daging dan keju."
+      ]
+      },
+      {
+      "tag": "harga_margharita_pizza",
+      "patterns": [
+          "Berapa harga margharita pizza?"
+      ],
+      "responses": [
+          "80k, anda dapat menikmati pizza dengan aneka macam sayuran dan keju."
+      ]
+      },
+      {
+      "tag": "menu_soups",
+      "patterns": [
+          "Apa saja pilihan menu soups?"
+      ],
+      "responses": [
+          "Pada menu soups terdapat ministrone soup, chicken and sweet corn soup, tom yum talai, fresh mushroom cream soup."
+      ]
+      },
+      {
+      "tag": "harga_ministrone_soup",
+      "patterns": [
+          "Berapa harga ministrone soup?"
+      ],
+      "responses": [
+          "37.5k, anda dapat menikmati sup sayuran ala italia yang disajikan dengan pasta dan roti crispy."
+      ]
+      },
+      {
+      "tag": "harga_chicken_and_sweet_corn",
+      "patterns": [
+          "Berapa harga chicken and sweet corn??"
+      ],
+      "responses": [
+          "37.5k, anda dapat menikmati sup ayam dengan jagung manis."
+      ]
+      },
+      {
+      "tag": "harga_tomyum_talai",
+      "patterns": [
+          "Berapa harga tom yum talai?"
+      ],
+      "responses": [
+          "50k, anda dapat menikmati sup ala thailand dengan bumbu aromatik."
+      ]
+      },
+      {
+      "tag": "harga_fresh_mushroom_cream_soup",
+      "patterns": [
+          "Berapa harga fresh mushroom cream soup?"
+      ],
+      "responses": [
+          "40k, anda dapat menikmati sup krim jamur dengan roti bawang."
+      ]
+      },
+      {
+      "tag": "menu_western_cuisine",
+      "patterns": [
+          "Apa saja menu western cuisine?"
+      ],
+      "responses": [
+          "Pada menu western ada pan-fried dory fish dan vegetable fried rice or fried noodle."
+      ]
+      },
+      {
+      "tag": "harga_pan-fried_dory_fish",
+      "patterns": [
+          "Berapa harga pan-fried dory fish?"
+      ],
+      "responses": [
+          "85k, anda dapat menikmati ikan kakap panggang dengan jamur, capers, zaitun, dan bawang putih panggang disajikan dengan saus tomat atau saus jeruk."
+      ]
+      },
+      {
+      "tag": "harga_vegetable_fried_rice_or_fried_noodle",
+      "patterns": [
+          "Berapa harga vegetable fried rice or fried noodle?"
+      ],
+      "responses": [
+          "45k, anda dapat menikmati nasi goreng ala indonesia dengan aneka sayuran, tahu tempe goreng."
+      ]
+      },
+      {
+      "tag": "menu_dessert",
+      "patterns": [
+          "Apa saja menu dessert?"
+      ],
+      "responses": [
+          "Pada menu dessert ada banana ftitters with shaved chocolate and cheese dan seasonal tropical fruit platter."
+      ]
+      },
+      {
+      "tag": "harga_banana_ftitters_with_shaved_chocolate_and_cheese",
+      "patterns": [
+          "Berapa harga banana ftitters with shaved chocolate and cheese?"
+      ],
+      "responses": [
+          "45k, anda dapat menikmati pisang goreng dengan parutan cokelat dan keju disajikan dengan gula aren."
+      ]
+      },
+      {
+      "tag": "harga_seasonal_tropical_fruit_platter",
+      "patterns": [
+          "Berapa harga seasonal tropical fruit platter?"
+      ],
+      "responses": [
+          "35k, anda dapat menikmati irisan buah segar."
+      ]
+      },
+      {
+      "tag": "menu_minuman",
+      "patterns": [
+          "Apa saja pilihan menu minuman?"
+      ],
+      "responses": [
+          "Terdapat banyak pilihan menu minuman yaitu aneka coffee, tea, aqua reflextions, fresh juice, soft drink, beer & spirit."
+      ]
+      },
+      {
+      "tag": "menu_coffee",
+      "patterns": [
+          "Ada jenis coffee apa saja?"
+      ],
+      "responses": [
+          "Pilihan menu coffee yaitu espresso, americano, latte(ori,vanilla,caramel,hazelnut), cappucino, affogato, cafe vienna, kopi tubruk yang dapat menemani waktu santai anda."
+      ]
+      },
+      {
+      "tag": "menu_tea",
+      "patterns": [
+          "Ada jenis tea apa saja?"
+      ],
+      "responses": [
+          "Pilihan menu tea yaitu by the pot dengan pilihan rasa seperti green tea, ginger and honey, berry, iced lemon tea dan ice lychee tea."
+      ]
+      },
+      {
+      "tag": "menu_beer_dan_spirit",
+      "patterns": [
+          "Ada jenis apa saja beer & spirit?"
+      ],
+      "responses": [
+          "Terdapat banyak pilihan beer & spirit yaitu captain morgan, smirnoff vodka, anggur merah, anggur merah gold, soju, bintang pint, bintang large, prost, heineken, guness, corona."
+      ]
+      },
+      {
+      "tag": "harga_menu_coffee",
+      "patterns": [
+          "Berapa harga menu coffee?"
+      ],
+      "responses": [
+          "Harga menu coffee start from 30k-40k."
+      ]
+      },
+      {
+      "tag": "harga_menu_tea",
+      "patterns": [
+          "Berapa harga menu tea?"
+      ],
+      "responses": [
+          "Harga tea start from 25k-35k."
+      ]
+      },
+      {
+      "tag": "harga_menu_beer_dan_spirit",
+      "patterns": [
+          "Berapa harga beer & spirit?"
+      ],
+      "responses": [
+          "Harga beer & spirit start form 60k-650k."
+      ]
+      },
+      {
+      "tag": "menu_extra",
+      "patterns": [
+          "Apakah ada menu extra?"
+      ],
+      "responses": [
+          "Tentu ada, menu pikulan dan traditional breakfast."
+      ]
+      },
+      {
+      "tag": "hari_menu_extra",
+      "patterns": [
+          "Apakah setiap hari ada menu extra?"
+      ],
+      "responses": [
+          "Tentu saja."
+      ]
+      },
+      {
+      "tag": "daftar_menu_extra",
+      "patterns": [
+          "Apakah menu extra di setiap hari sama?"
+      ],
+      "responses": [
+          "Tentu berbeda, berikut daftar menu extra: hari senin menyediakan tahu campur dan nasi kuning, selasa menyediakan lontong balap dan pecel madiun, rabu menyediakan rawon komplit dan rujak cingur, kamis menyediakan lontong sayur dan nasi uduk, jumat menyediakan laksa dan gado-gado, sabtu menyediakan soup ikan jimbaran dan rijsttafel balinese, minggu menyediakan soto ayam lamongan dan polo pendem."
+      ]
+      },
+      {
+      "tag": "layanan_kamar",
+      "patterns": [
+          "Apakah bisa memesan makanan atau minuman ke kamar?"
+      ],
+      "responses": [
+          "Tentu bisa."
+      ]
+      },
+      {
+      "tag": "cara_memesan_makan_ke_kamar",
+      "patterns": [
+          "Bagaimana cara memesan makanan ke kamar?"
+      ],
+      "responses": [
+          "Sangat mudah, anda bisa menghubungi staff hotel lalu memberitahukan ingin memesan makanan apa dan nomor kamar berapa."
+      ]
+      },
+      { 
+        "tag" : "promosi",
+        "patterns": [
+            "Bagaimana cara nya mendapatkan harga promosi?"
+        ],
+        "responses": [ 
+            "kunjungi web berikut www.granddarmosuite.com dan masukkan kode pemesanan: ramarama untuk tarif spesial"
+        ]
+      },
+      {
+        "tag" : "paket_khusus",
+        "patterns": [
+            "apakah ada paket khusus?"
+        ],
+        "responses": [ 
+            "tentu ada, kami menyediakan wedding package, table manner package, arisan package, birthday package, paket nasi keroyokan dan yang terakhir paket sport sensation"                
+        ]
+      },
+      {
+        "tag" : "harga_wedding_package ",
+        "patterns": [
+            "berapa harga wedding package?"
+        ],
+        "responses": [ 
+            "Rayakan momen Kudus Anda bersama Grand Darmo Suite Hotel,mulai Rp. 25.000.000 untuk 200 orang termasuk soundsystem dan voucher menginap gratis."                
+        ]
+      }, 
+      {
+        "tag" : "harga_table_manner_package",
+        "patterns": [
+            "berapa harga table manner package?"
+        ],
+        "responses": [ 
+            "mulai Rp. 100.000 termasuk Tur Hotel, Sertifikat, dan pilihan Set Menu Internasional yang memanjakan mulut."                
+        ]
+      },
+      {
+        "tag" : "harga_arisan_package?",
+        "patterns": [
+            "berapa harga arisan package?"
+        ],
+        "responses": [ 
+            "Rasakan momen bahagiamu bersama rekan kerja hanya Rp. 100.000, nikmati buffet dari Entrée, Appetizer, maincourse dan Desserts dengan pilihan menu."                
+        ]
+      },
+      {
+        "tag" : "harga_paket_nasi_keroyokan?",
+        "patterns": [
+            "berapa harga paket nasi keroyokan?"
+        ],
+        "responses": [ 
+            "Rasakan Nasi Keroyokan yang Terkenal, Nasi Liwet dengan bumbu lezat khas menu khas Indonesia, termasuk Sayur Asem dan Free Flow Ice Tea hanya Rp. 50.000/orang."                
+        ]
+      },
+      {
+        "tag" : "harga_birth_day_package?",
+        "patterns": [
+            "berapa harga birth day package?"
+        ],
+        "responses": [ 
+            "Kids / Sweet Seventeen Birthday Party dengan pilihan venue di Grand darmo Suite Hotel mulai Rp. 110.000/orang termasuk Kue Ulang Tahun."                
+        ]
+      },
+      {
+        "tag" : "harga_paket_sport_sensation",
+        "patterns": [
+            "berapa harga paket sport sensation?"
+        ],
+        "responses": [ 
+            "Nikmati berenang sepanjang hari dan akses gratis ke Fitness Center hanya Rp. 100.000 dan manjakan diri Anda dengan jus dan makanan ringan sehat gratis di kafe bar kolam renang."                
+        ]
+      },
+      {
+        "tag" : "paket_khusus_saat_ini",
+        "patterns": [
+            "apakah ada paket khusus saat ini?"
+        ],
+        "responses": [ 
+            "tentu ada, saat ini kami menyediakan paket GOLDEN CHRISTMAS EVE & FEAST DINNER dan paket Christmas holistay"                
+        ]
+      },
+      {
+        "tag" : "periode_paket_khusus_saat_ini",
+        "patterns": [
+            "apakah paket GOLDEN CHRISTMAS EVE & FEAST DINNER dan Paket christmas holistay setiap hari? "
+        ],
+        "responses": [ 
+            "paket GOLDEN CHRISTMAS EVE & FEAST DINNER dan paket Christmas holistay hanya berlaku pada tanggal 25-26 desember"                
+        ]
+      },
+      {
+        "tag" :"harga_paket_golden_christmas_eve_dan_feast_dinner",
+        "patterns": [
+            "berapa harga paket GOLDEN CHRISTMAS EVE & FEAST DINNER?"
+        ],
+        "responses": [ 
+            "128.000 NET/Pax anda dapat menikmati menu spesial beef wellington dengan saus spesial, live band, santa gift for kids"                
+        ]
+      },
+      {
+        "tag" :"harga_paket_christmas_holistay",
+        "patterns": [
+            "berapa harga paket christmas holistay?"
+        ],
+        "responses": [ 
+            "harga paket christmas tergantu jenis kamarnya, untuk jenis kamar suite deluxe 625.000/malam termasuk menu sarapan dan 740.000/malam termasuk makan malam, untuk kamar suite eksekutif 745.000/malam termasuk menu sarapan dan 866.000/malam termasuk makan malam"                
+        ]
+      },
+      {
+        "tag" : "cara_memesan_makanan_ke kamar",
+        "patterns": [
+            "bagaimana cara memesan makanan ke kamar?"
+        ],
+        "responses": [ 
+            "informasikan kepada Agen Front Desk kami, menu apa yang ingin dipesan dan no kamar, kami mengantar makanan sesuai permintaan anda."
+        ]
+      },
+      {
+        "tag" : "letak_gym",
+        "patterns": [
+            "ada dilantai berapa tempat gym?"
+        ],
+        "responses": [ 
+            "tempat gym ada dilantai 2"
+        ]
+      },
+      {
+        "tag" : "take_away",
+        "patterns": [
+            "apakah bisa take away sarapan?"
+        ],
+        "responses": [ 
+        "tentu, Pilih pilihan Kotak Sarapan Take Awat, informasikan kepada Agen Front Desk kami dan kotak akan siap sesuai permintaan Anda"
+        ]
+      },
+      {
+        "tag" : "smoking_area",
+        "patterns": [
+            "apakah ada smoking area"
+        ],
+        "responses": [ 
+            "tentu ada, anda dapat menuju ke lantai 1"
+        ]
+      },
+      {
+        "tag" : "letak_musholla",
+        "patterns": [
+            "musholla berada dimana?"
+        ],
+        "responses": [ 
+            "lantai 3"
+        ]
+      },
+      {
+        "tag" : "ruang_meeting",
+        "patterns": [
+            "apakah ada ruang meeting?"
+        ],
+        "responses": [ 
+            "tentu ada, kami memiliki 3 ruang meeting dengan nama yang berbeda"
+        ]
+      },
+      {
+        "tag" : "letak_ruang_meeting",
+        "patterns": [
+            "di lantai berapa ruang meeting?"
+        ],
+        "responses": [ 
+            "untuk ruang meeting berada pada lantai 1 dan lantai 3"
+        ]
+      },
+      {
+        "tag" : "reservasi_restoran",
+        "patterns": [
+            "bagaimana cara reservasi restoran?"
+        ],
+        "responses": [ 
+            "anda dapat menghubungi nomor berikut 085236120652"
+        ]
+      },
+      {
+        "tag" : "live_cooking",
+        "patterns": [
+            "apakah ada live cooking?"
+        ],
+        "responses": [ 
+            "tentu ada, kami mengadakan live cooking di pasar senggol konsep dinner dengan harga 99k anda dapat menikmati menu nusantara."
+        ]
+      },
+      {
+        "tag" : "pelayanan_kamar",
+        "patterns": [
+            "apakah pelayanan kamar 24/7?"
+        ],
+        "responses": [ 
+            "tentu saja, kami Menawarkan beragam menu tradisional hingga internasional yang tersedia 24 jam"
+        ]
+      }, 
+      {
+        "tag" : "jam_operasional_breakfast",
+        "patterns": [
+            "kapan jam operasional breakfast?"
+        ],
+        "responses": [ 
+            "jam operasional breakfast 05:00-10:00 dengan menawarkan 50 jenis makanan mulai dari menu traditional hingga kontinental."
+        ]
+      },
+      {
+        "tag" :"jam_operasional_dinner",
+        "patterns": [
+            "kapan jam operasional dinner?"
+        ],
+        "responses": [ 
+            "jam operasional dinner 18:00-21:00"
+        ]
+      },
+      {
+        "tag" :"acara_konferensi",
+        "patterns": [
+            "apakah bisa mengadakan acara atau konferensi?"
+        ],
+        "responses": [ 
+            "tentu, silahkan hubungi dan reservasi nomor berikut ini 085236120652"
+        ]
+      },
+      {
+        "tag" :"acara_konferensi",
+        "patterns": [
+            "apakah bisa mengadakan acara atau konferensi?"
+        ],
+        "responses": [ 
+            "tentu, silahkan hubungi dan reservasi nomor berikut ini 085236120652"
+        ]
+      },
+      {
+        "tag" :"letak_toilet_umum",
+        "patterns": [
+            "di lantai berapa toilet umum?"
+        ],
+        "responses": [ 
+            "toilet umum berada dilantai 1 dan 3"
+        ]
+      },
+      {
+        "tag": "reservation_status",
+        "patterns": [
+          "apakah saya bisa melihat status reservasi saya",
+          "bagaimana cara mengecek status reservasi saya?",
+          "bagaimana cara melihat apakah reservasi saya sudah terkonfirmasi?",
+          "bisakah saya memeriksa status reservasi saya?",
+          "cara melihat reservasi sudah terkonfirmasi?"
+      	],
+        "responses": [
+          "tentu, untuk melihat status reservasi Anda, tolong berikan nomor referensi atau tanggal reservasi Anda, saya akan cek langsung untuk Anda.",
+          "untuk mengecek status reservasi anda, anda harus masuk ke akun anda dan menuju bagian 'status reservasi'. apakah ada yang bisa saya bantu lebih lanjut?",
+          "Anda bisa mengecek status reservasi Anda dengan masuk ke akun Anda di situs web atau aplikasi kami. Jika tidak memiliki akun, cukup berikan nomor referensi atau hubungi layanan pelanggan kami dengan informasi reservasi Anda untuk konfirmasi.",
+          "Tentu, saya dapat membantu Anda dengan itu. Mohon berikan nomor referensi atau tanggal reservasi Anda agar saya dapat memeriksa statusnya.",
+          "untuk mengecek terkonfirmasinya reservasi anda harus masuk ke akun anda dan menuju bagian 'status reservasi'. apakah masih kebingungan?"
+        ]
+      },
+   	  {
+        "tag": "previous_order",
+        "patterns": [
+          "bagaimana cara saya mengecek pemesanan sebelumnya?",
+          "apakah ada cara untuk mengetahui riwayat pesanan saya sebelumnya?",
+          "cara melihat pesanan sebelumnya?"
+      	],
+        "responses": [
+          "anda dapat melihat pemesanan sebelumnya dengan masuk ke akun Anda dan menuju bagian 'Pemesanan Saya'. Apakah ada yang bisa saya bantu lebih lanjut?",
+          "tentu, Anda bisa mengetahui riwayat pesanan Anda dengan masuk ke akun Anda di situs web atau aplikasi kami. Di bagian 'Pesanan Saya' atau 'Riwayat Pesanan', Anda akan menemukan daftar lengkap pesanan yang pernah Anda buat sebelumnya.",
+          "dengan cara masuk ke akun anda dan menuju bagian 'Pemesanan saya', apakah ada yang bisa saya bantu lebih lanjut?"
+        ]
+      },
+      {
+        "tag": "emergency_procedures",
+        "patterns": [
+          "Apakah ada informasi tentang prosedur darurat di hotel ini?",
+          "Bagaimana prosedur yang harus diikuti dalam situasi darurat di hotel?"
+      	],
+        "responses": [
+          "Tentu, kami memiliki prosedur darurat yang terdokumentasi. Anda dapat menemukan informasi lengkap tentang prosedur darurat di brosur yang tersedia di kamar atau dengan bertanya kepada staf kami.",
+          "Prosedur darurat kami mencakup langkah-langkah yang harus diikuti dalam situasi darurat. Ini termasuk penggunaan pintu keluar darurat, lokasi titik kumpul, dan tindakan yang harus diambil dalam berbagai situasi darurat seperti kebakaran atau gempa bumi. Kami juga memiliki staf yang terlatih untuk membantu Anda dalam situasi darurat."
+        ]
+      },
+  	  {
+        "tag": "emergency_contact",
+        "patterns": [
+          "Nomor kontak darurat apa yang bisa saya hubungi dalam situasi mendesak?",
+          "Bagaimana cara mendapatkan bantuan darurat jika dibutuhkan?",
+          "apa ada kontak darurat utuk hotel ini?",
+          "berapa nomor kontak darurat untuk gotel ini?"
+      	],
+        "responses": [
+          "Nomor darurat yang bisa Anda hubungi dalam situasi mendesak adalah 112. Nomor ini akan menghubungkan Anda ke layanan darurat yang diperlukan.",
+          "Untuk mendapatkan bantuan darurat, Anda dapat menghubungi nomor darurat 112 atau mencari bantuan dari staf hotel kami. Kami siap memberikan bantuan dalam situasi darurat apa pun yang Anda hadapi selama menginap di hotel kami.",
+          "tentu ada, untk kontak darurat hotel kami yaitu 112.",
+          "untuk kontak darurat hotel kami yaitu 112 yang akan langsung terhubung ke layanan darurat yang ada di hotel kami."
+      	]
+      },
+      {
+        "tag": "emergency_door",
+        "patterns": [
+          "Di mana lokasi pintu keluar darurat di hotel ini?",
+          "Bagaimana cara menemukan pintu keluar darurat jika diperlukan?"
+      	    ],
+        "responses": [
+          "Pintu keluar darurat terletak di beberapa lokasi strategis di seluruh hotel. Untuk informasi lebih detail, Anda bisa menemukan petunjuk pintu keluar darurat di sekitar koridor dan ruang umum",
+          "Anda dapat menemukan pintu keluar darurat dengan melihat tanda-tanda petunjuk yang ada di koridor atau ruang umum. Tanda-tanda ini mengarahkan Anda ke lokasi pintu keluar darurat yang terdekat dalam situasi darurat."
+            ]
+    	},
+    	{
+        "tag": "international_audience",
+        "patterns":[
+          "Apakah hotel ini menyediakan layanan concierge untuk membantu tamu internasional?",
+          "Bisakah Anda memberikan informasi tentang fasilitas kamar yang cocok untuk tamu internasional?",
+          "Apakah staf hotel dapat berkomunikasi dalam berbagai bahasa?",
+          "Bagaimana cara untuk mengatur transportasi dari bandara ke hotel ini?",
+          "Apakah hotel ini memiliki informasi tentang objek wisata dan atraksi lokal?",
+          "Bisakah saya mendapatkan panduan atau informasi tentang kebijakan hotel?"
+      	    ],
+        "responses": [
+          " Ya, kami memiliki layanan concierge yang siap membantu Anda dengan informasi perjalanan, reservasi restoran, dan rekomendasi aktivitas di sekitar area.",
+          "Tentu, kamar kami dilengkapi dengan fasilitas seperti konektor listrik internasional, saluran televisi beragam, dan staf kami siap membantu dengan permintaan khusus untuk membuat kenyamanan tinggal Anda.",
+          "Ya, staf kami terampil dalam beberapa bahasa termasuk bahasa Inggris, Spanyol, Mandarin, dan Jepang untuk memastikan pengalaman Anda di sini lancar dan nyaman.",
+          "Kami menyediakan layanan transportasi dari bandara. Anda dapat memesan layanan ini sebelum kedatangan atau dengan bertanya kepada staf resepsionis kami setelah Anda tiba di bandara.",
+          "Ya, kami dapat memberikan informasi tentang atraksi lokal, tur, dan rekomendasi tempat-tempat menarik di sekitar area. Anda juga dapat meminta bantuan kepada staf concierge kami.",
+ 
+          "Tentu, kami memiliki panduan yang tersedia dalam berbagai bahasa tentang kebijakan hotel, termasuk aturan dan regulasi yang berlaku selama menginap."
+      	    ]
+    	},
+    	{
+        "tag": "feedback",
+        "patterns":[
+          "Bagaimana saya dapat memberikan umpan balik tentang pengalaman menginap saya?",
+          "Apakah ada saluran khusus untuk memberikan saran atau keluhan tentang pelayanan hotel?",
+          "Apakah hotel ini mengadakan survei kepuasan tamu?",
+          "Bisakah saya memberikan umpan balik secara langsung kepada manajemen hotel?",
+          "Bagaimana umpan balik tamu membantu perbaikan layanan hotel?",
+          "Apakah hotel ini memberikan apresiasi bagi tamu yang memberikan umpan balik?",
+          "Bagaimana jaminan bahwa umpan balik saya akan diperhatikan?"
+      	    ],
+        "responses":[
+          "Kami senang mendengar pengalaman Anda! Anda dapat memberikan umpan balik melalui formulir yang tersedia di kamar atau melalui situs web kami. Kami menghargai setiap masukan untuk terus meningkatkan layanan kami.",
+          "Ya, kami memiliki layanan guest relations yang siap membantu dengan saran atau keluhan Anda. Anda dapat menghubungi mereka melalui nomor telepon yang tertera di direktori kamar atau mengunjungi resepsionis.",
+          "Ya, kami memiliki survei kepuasan tamu yang kami kirimkan setelah masa menginap Anda berakhir. Umpan balik dari tamu sangat berarti bagi kami dalam meningkatkan layanan kami.",
+          "Tentu, kami menyediakan opsi untuk berbicara langsung dengan manajemen hotel. Silakan tinggalkan pesan atau janjian bertemu dengan manajer di resepsionis.",
+          "Umpan balik dari tamu adalah sumber informasi berharga bagi kami. Kami menggunakan masukan tersebut untuk mengevaluasi layanan kami dan membuat perbaikan yang diperlukan untuk memastikan pengalaman menginap yang lebih baik di masa mendatang.",
+          " Kami sangat menghargai umpan balik dari tamu kami. Kadang-kadang kami memiliki program insentif atau penawaran khusus untuk tamu yang memberikan umpan balik yang membantu kami meningkatkan layanan.",
+          " Setiap umpan balik yang diberikan oleh tamu sangat dihargai dan dicatat. Kami memiliki tim khusus yang meninjau semua umpan balik untuk melakukan perbaikan yang diperlukan."
+      	    ]
+    	},
+    	{
+        "tag": "masalah_AC",
+	      "patterns":[
+          "Saya mengalami masalah dengan AC di kamar saya, bagaimana saya bisa mendapatkan bantuan?"
+	      ],
+        "responses":[
+          "Maaf atas ketidaknyamanannya. Untuk bantuan segera dengan masalah AC, silakan hubungi layanan kamar atau resepsionis, mereka akan segera mengirim teknisi untuk memperbaikinya."
+	      ]
+	    },
+	    {
+ 	      "tag": "masalah_kamar",
+	      "patterns":[
+          "Kamar saya belum dibersihkan sejak saya meninggalkannya pagi tadi. Apa yang harus saya lakukan?"
+	      ],
+        "responses":[
+          "Mohon maaf atas ketidaknyamanan ini. Saya akan menghubungkan Anda langsung ke manajer layanan kamar untuk segera menyelesaikan masalah ini. Silakan berikan nomor kamar Anda."
+	      ]
+	    },
+	    {
+ 	      "tag": "masalah_wifi",
+	      "patterns":[
+          "WiFi di kamar saya terlalu lambat. Apakah ada cara untuk meningkatkan kecepatannya?"
+	      ],
+        "responses":[
+         "Mohon maaf atas masalah ini. Saya akan menghubungkan Anda ke departemen teknologi informasi kami untuk mencoba memperbaiki masalah koneksi WiFi di kamar Anda."
+	      ]
+	    },
+	    {
+ 	      "tag": "masalah_kunci_kamar",
+	      "patterns":[
+          "Kunci kamar saya tidak berfungsi, bagaimana cara mengatasi hal ini?"
+	      ],
+        "responses":[
+         "Maaf atas ketidaknyamanannya. Untuk bantuan segera dengan kunci kamar, mohon hubungi resepsionis atau layanan keamanan dan mereka akan segera membantu Anda."
+	      ]
+	    },
+	    {
+ 
+ 	      "tag": "masalah_tagihan",
+	      "patterns":[
+          "Saya memiliki masalah dengan tagihan saya, bagaimana cara menyelesaikannya?"
+	      ],
+        "responses":[
+          "Mohon maaf atas masalah ini. Silakan jelaskan detail tagihan Anda kepada staf di meja resepsionis atau hubungi manajer keuangan hotel untuk membantu menyelesaikan masalah tagihan Anda."
+	      ]
+	    },
+	    {
+ 	      "tag": "layanan_personalisasi",
+	    "patterns":[
+          "Apakah hotel ini menyediakan layanan personalisasi untuk tamu?"
+        ],
+        "responses":[
+          "Ya, kami sangat memperhatikan preferensi tamu kami. Kami memiliki layanan untuk memenuhi kebutuhan khusus Anda seperti pilihan bantal, preferensi makanan, dan lainnya."
+	      ]
+	    },
+	    {
+	      "tag": "fasilitas_tambahan",
+	      "patterns":[
+          "Bisakah saya memesan kamar dengan preferensi tertentu, seperti pemandangan khusus atau fasilitas tambahan?"
+        ],
+        "responses":[
+          "Tentu, kami memiliki pilihan kamar dengan berbagai pemandangan dan fasilitas. Silakan jelaskan preferensi Anda saat memesan atau hubungi resepsionis untuk mengatur kebutuhan khusus."
+	      ]
+	    },
+	    {
+	      "tag": "manfaat_personalisasi",
+	      "patterns":[
+          "Apakah ada program loyalitas atau keanggotaan yang menawarkan manfaat personalisasi kepada tamu tetap?"
+        ],
+        "responses":[
+          "Ya, kami memiliki program loyalitas yang memberikan manfaat tambahan kepada tamu tetap, termasuk peningkatan layanan dan penawaran khusus berdasarkan preferensi Anda."
+	      ]
+	    },
+	    {
+ 	      "tag": "mengingat_preferensi",
+	      "patterns":[
+          "Bagaimana hotel ini mengingat preferensi tamu yang sering menginap?"
+        ],
+        "responses":[
+          "Kami memiliki sistem catatan khusus yang mencatat preferensi tamu yang sering menginap, memungkinkan kami untuk menyediakan layanan yang lebih personal dan sesuai dengan preferensi Anda."
+        ]
+      }
+    ]
+  }
